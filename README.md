@@ -16,16 +16,16 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ## ⌨️ List Keymaps <a name = "keymaps"> </a>
 
 Key Description
-\<Leader> == Space
-\<C> == ⌃
-Alt == fn + ⌥
-\<A> == ⌥
-\<S> == ⇧
+- \<Leader> == Space
+- \<C> == ⌃
+- Alt == fn + ⌥
+- \<A> == ⌥
+- \<S> == ⇧
 
 Mode Abbreviation
-N = Normal
-I = Insert
-V = Visual
+- N = Normal
+- I = Insert
+- V = Visual
 
 | Keymap                  | Description                  | Mode    |
 | ----------------------- | ---------------------------- | ------- |
