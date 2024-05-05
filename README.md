@@ -69,6 +69,8 @@ Mode Abbreviation
 | \<leader> E             | open NeoTree                 | N, V    |
 | \<leader> q             | quit vim                     | N, V    |
 | \<leader> ,             | switch buffer                | N, V    |
+| \<leader> gp            | gitsigns show changes        | N       |
+| \<leader> gt            | gitsigns show toggle blame   | N       |
 | s                       | open split vertial window    | NeoTree |
 | S                       | open split horizontal window | NeoTree |
 | x                       | mark cut file/dir            | NeoTree |
