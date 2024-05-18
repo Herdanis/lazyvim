@@ -1,6 +1,27 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 require("plugins.onedarkpro")
+require("mason").setup()
+require("mason-lspconfig").setup({
+  ensure_installed = {
+    "lua_ls",
+    "bashls",
+    "docker_compose_language_service",
+    "dockerls",
+    "gopls",
+    "helm_ls",
+    "jsonls",
+    "jqls",
+    "marksman",
+    "pyright",
+    "ruff",
+    "svelte",
+    "terraformls",
+    "tflint",
+    "yamlls",
+    "sqls",
+  },
+})
 -- local highlight = {
 --   "RainbowRed",
 --   "RainbowYellow",
