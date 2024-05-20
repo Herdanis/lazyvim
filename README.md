@@ -41,7 +41,7 @@ Mode Abbreviation
 | b                       | go to back first character   | N, V    |
 | e                       | go to next last character    | N, V    |
 | ge                      | go to back last character    | N, V    |
-| gs                      | add surround pair character  | V       |
+| S                       | add surround pair character  | V       |
 | cs + character pair     | change surround pair         | N       |
 | ds + character pair     | delete surround pair         | N       |
 | dst                     | delete surround tag          | N       |
