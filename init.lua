@@ -14,7 +14,6 @@ require("mason-lspconfig").setup({
     "jqls",
     "marksman",
     "pyright",
-    "ruff",
     "svelte",
     "terraformls",
     "tflint",
