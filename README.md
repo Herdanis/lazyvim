@@ -10,12 +10,13 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 - NeoTree - nvim-neo-tree/neo-tree.nvim
 - NeoDev - folke/neodev.nvim
 - Peek - toppair/peek.nvim
-- Nvim-Surround - kylechui/nvim-surround
+- Nvim-Surround - kylechui/nvim-surround (dissabled)
 - ToggleTerm - akinsho/toggleterm.nvim
 
 ## ⌨️ List Keymaps <a name = "keymaps"> </a>
 
 Key Description
+
 - \<Leader> == Space
 - \<C> == ⌃
 - Alt == fn + ⌥
@@ -23,6 +24,7 @@ Key Description
 - \<S> == ⇧
 
 Mode Abbreviation
+
 - N = Normal
 - I = Insert
 - V = Visual
@@ -41,10 +43,9 @@ Mode Abbreviation
 | b                       | go to back first character   | N, V    |
 | e                       | go to next last character    | N, V    |
 | ge                      | go to back last character    | N, V    |
-| S                       | add surround pair character  | V       |
-| cs + character pair     | change surround pair         | N       |
-| ds + character pair     | delete surround pair         | N       |
-| dst                     | delete surround tag          | N       |
+| gsa + character pair    | add surround pair character  | V       |
+| gsr + character pair    | change surround pair         | N       |
+| gsd + character pair    | delete surround pair         | N       |
 | \<S> v                  | block one line               | N       |
 | \<A> k                  | move one line up             | N, V    |
 | \<A> j                  | move one line down           | N, V    |
@@ -84,8 +85,9 @@ Mode Abbreviation
 | p                       | pull remote                  | Lazygit |
 | P                       | push to remote               | Lazygit |
 | c                       | commit                       | Lazygit |
-| /<leader>               | add file                     | Lazygit |
-| /<fn> arrow up/down     | scroll page                  | Lazygit |
+| \<leader>               | add file                     | Lazygit |
+| \<C> d                  | scroll page down             | Lazygit |
+| \<C> u                  | scroll page up               | Lazygit |
 | A                       | amend last commit            | Lazygit |
 | r                       | refresh                      | Lazygit |
 | s                       | stash all                    | Lazygit |
