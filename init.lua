@@ -2,25 +2,7 @@
 require("config.lazy")
 require("plugins.onedarkpro")
 require("mason").setup()
-require("mason-lspconfig").setup({
-  ensure_installed = {
-    "lua_ls",
-    "bashls",
-    "docker_compose_language_service",
-    "dockerls",
-    "gopls",
-    "helm_ls",
-    "jsonls",
-    "jqls",
-    "marksman",
-    "pyright",
-    "svelte",
-    "terraformls",
-    "tflint",
-    "yamlls",
-    "sqls",
-  },
-})
+require("mason-lspconfig").setup()
 -- local highlight = {
 --   "RainbowRed",
 --   "RainbowYellow",
