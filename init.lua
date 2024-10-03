@@ -1,6 +1,22 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-require("plugins.onedarkpro")
+
+-- NOTE: THEMES
+
+-- ENABLE CATPPUCCIN THEME --
+-- require("catppuccin")
+-- vim.cmd.colorscheme("catppuccin-macchiato")
+
+-- ENABLE ONEDARKPRO THEME --
+-- require("plugins.onedarkpro")
+
+-- ENABLE ONEDARK THEME --
+require("onedark").setup({
+  style = "dark",
+})
+require("onedark").load()
+
+-- NOTE: lSP
 require("mason").setup()
 require("mason-lspconfig").setup()
 -- local highlight = {
