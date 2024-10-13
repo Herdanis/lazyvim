@@ -12,7 +12,7 @@ require("config.lazy")
 
 -- ENABLE ONEDARK THEME --
 require("onedark").setup({
-  style = "dark",
+  style = "darker",
 })
 require("onedark").load()
 
